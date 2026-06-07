@@ -1,0 +1,83 @@
+# ============================================================================
+# Hugo Site .gitignore
+# ============================================================================
+
+# ============================================================================
+# Hugo Build Artifacts
+# ============================================================================
+
+# Generated site output
+public/
+
+# Hugo resources (processed assets)
+resources/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo stats
+hugo_stats.json
+
+# Auto-generated JS config
+**/assets/jsconfig.json
+
+# ============================================================================
+# Node.js & Package Managers
+# ============================================================================
+
+# Dependencies
+node_modules/
+
+# Local build tools downloaded by Codex
+bin/
+.tools/
+
+# Local source materials not meant for public deployment
+CV_eng.pdf
+MDL.png
+BII.png
+CancerPKU.png
+TCM-Navigator/
+Bievo/
+saCas9/
+ASD2023/
+
+# ============================================================================
+# Environment & Configuration
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ============================================================================
+# Generated Content
+# ============================================================================
+
+# Pagefind search index
+pagefind/
+static/pagefind/
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================================================
+# Logs & Temporary Files
+# ============================================================================
+
+*.log
+npm-debug.log*

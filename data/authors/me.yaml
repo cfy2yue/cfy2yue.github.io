@@ -1,0 +1,128 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Feiying Chen
+  given: Feiying
+  family: Chen
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+status:
+  icon: ""
+role: PhD Student in Biology
+bio: |
+  Feiying Chen is a PhD student at the Biomedical Pioneering Innovation Center
+  (BIOPIC), Tsinghua University. His research interests include perturbation
+  biology, AI virtual cell modeling, single-cell transcriptomics, AI-driven drug
+  discovery, and protein/perturbation-based drug discovery.
+
+affiliations:
+  - name: Biomedical Pioneering Innovation Center, Tsinghua University
+    url: https://biopic.tsinghua.edu.cn/
+
+links:
+  - icon: at-symbol
+    url: mailto:cfy25@mails.tsinghua.edu.cn
+    label: Email
+  - icon: brands/github
+    url: https://github.com/cfy2yue
+    label: GitHub
+
+interests:
+  - Perturbation Biology
+  - AI Virtual Cell
+  - Single-cell Transcriptomics
+  - AI-driven Drug Discovery
+  - Protein/Perturbation-based Drug Discovery
+
+education:
+  - degree: PhD in Biology
+    institution: Tsinghua University, BIOPIC
+    start: 2025-09-01
+    end: ''
+    summary: |
+      Advisor: Prof. Zemin Zhang. Research focus: cellular dynamics modeling,
+      tumor microenvironment, perturbation biology, and digital twin biology.
+  - degree: B.S. in Biomedical Science
+    institution: Shanghai Jiao Tong University, Zhiyuan Honors Program
+    start: 2021-09-01
+    end: 2025-06-30
+    summary: |
+      GPA: 3.65 / 4.0. Selected coursework: Math Analysis, Intro to Physics,
+      Biochemistry, and Medical Data Analysis.
+
+experience:
+  - role: PhD Student
+    org: Tsinghua BIOPIC / Cancer PKU
+    start: 2025-09-01
+    summary: |
+      Working on computational approaches for tumor microenvironment analysis,
+      perturbation biology, and single-cell transcriptomic modeling.
+  - role: Research Intern
+    org: A*STAR Bioinformatics Institute / NUS
+    start: 2024-08-01
+    end: 2025-08-31
+    summary: |
+      Developed TCM-Navigator, integrating molecular generation, TCM-like
+      quality control, docking evaluation, and drug-likeness scoring for
+      AI-assisted drug discovery.
+  - role: Undergraduate Researcher
+    org: Molecular Design Laboratory, SJTU School of Medicine
+    start: 2022-04-01
+    end: 2025-08-31
+    summary: |
+      Investigated CRISPR-Cas9 conformational dynamics and allosteric regulation
+      with molecular dynamics, Markov state modeling, pathway analysis, docking,
+      and allosteric database construction.
+
+skills:
+  - name: Computational Biology
+    items:
+      - label: Single-cell analysis with Scanpy
+        level: 4
+      - label: Multi-omics integration
+        level: 4
+      - label: Flux balance analysis
+        level: 3
+  - name: AI & Drug Design
+    items:
+      - label: Molecular generation
+        level: 5
+      - label: Protein representation learning
+        level: 4
+      - label: Docking and ADMET workflows
+        level: 4
+  - name: Programming
+    items:
+      - label: Python / PyTorch / scikit-learn
+        level: 5
+      - label: Linux / HPC / Slurm
+        level: 4
+      - label: R / Matlab
+        level: 3
+
+languages:
+  - name: Chinese
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Professional
+
+awards:
+  - title: Zhiyuan Honors Scholarship
+    awarder: Shanghai Jiao Tong University
+    date: "2024-12-01"
+    summary: Awarded three times during undergraduate study.
+    icon: hero/trophy
+  - title: Academic Presentation Award
+    awarder: Shanghai Jiao Tong University
+    date: "2024-12-01"
+    summary: First Prize, awarded twice.
+    icon: hero/presentation-chart-line
+  - title: Outstanding Overseas Research Scholarship
+    awarder: Shanghai Jiao Tong University
+    date: "2024-08-01"
+    icon: hero/globe-alt
