@@ -90,10 +90,23 @@ sections:
       title: Research Focus
       subtitle: ''
       text: |-
-        <div class="grid gap-4 md:grid-cols-3 not-prose">
-        <img class="rounded-md border border-gray-200 bg-white p-4 object-contain h-28 w-full" src="/media/labs/cancer-pku.png" alt="Cancer PKU logo">
-        <img class="rounded-md border border-gray-200 bg-white p-4 object-contain h-28 w-full" src="/media/labs/bii.png" alt="A*STAR Bioinformatics Institute logo">
-        <img class="rounded-md border border-gray-200 bg-white p-4 object-contain h-28 w-full" src="/media/labs/mdl.png" alt="Molecular Design Laboratory logo">
+        <div class="grid gap-5 md:grid-cols-2">
+        <section class="rounded-md border border-gray-200 bg-white p-5">
+        <h3 class="text-lg font-semibold text-gray-950">Perturbation Biology and AI Virtual Cells</h3>
+        <p class="mt-3 text-gray-700">Modeling how genetic, molecular, and environmental perturbations reshape cell states, with emphasis on deployable single-cell foundation models and post-training for perturbation response prediction.</p>
+        </section>
+        <section class="rounded-md border border-gray-200 bg-white p-5">
+        <h3 class="text-lg font-semibold text-gray-950">Single-cell Transcriptomics</h3>
+        <p class="mt-3 text-gray-700">Using single-cell data to characterize tumor microenvironment structure, cellular state transitions, and phenotype-level readouts for computational biology workflows.</p>
+        </section>
+        <section class="rounded-md border border-gray-200 bg-white p-5">
+        <h3 class="text-lg font-semibold text-gray-950">AI-driven and Phenotype-based Drug Design</h3>
+        <p class="mt-3 text-gray-700">Connecting molecular generation, target-aware evaluation, and cellular phenotypes so that drug design is guided by both mechanism and response.</p>
+        </section>
+        <section class="rounded-md border border-gray-200 bg-white p-5">
+        <h3 class="text-lg font-semibold text-gray-950">Computational Chemistry and Allostery</h3>
+        <p class="mt-3 text-gray-700">Studying conformational dynamics, docking, Markov state models, and allosteric communication in CRISPR-Cas systems and drug-discovery settings.</p>
+        </section>
         </div>
     design:
       columns: '1'
@@ -128,17 +141,20 @@ sections:
     content:
       title: Research Experience
       text: |-
-        <div class="space-y-6">
-        <section>
-        <h3 class="text-xl font-semibold text-gray-950">CancerPKU</h3>
+        <div class="grid gap-5 md:grid-cols-3">
+        <section class="rounded-md border border-gray-200 bg-white p-5">
+        <img class="h-16 w-full object-contain object-left" src="/media/labs/cancer-pku.png" alt="CancerPKU logo">
+        <h3 class="mt-5 text-xl font-semibold text-gray-950">CancerPKU</h3>
         <p class="mt-1 text-gray-700">PhD-stage research on tumor microenvironment, perturbation biology, and single-cell modeling.</p>
         </section>
-        <section>
-        <h3 class="text-xl font-semibold text-gray-950">A*STAR Bioinformatics Institute / NUS</h3>
+        <section class="rounded-md border border-gray-200 bg-white p-5">
+        <img class="h-16 w-full object-contain object-left" src="/media/labs/bii.png" alt="A*STAR Bioinformatics Institute logo">
+        <h3 class="mt-5 text-xl font-semibold text-gray-950">A*STAR Bioinformatics Institute / NUS</h3>
         <p class="mt-1 text-gray-700">Developed TCM-Navigator, an AI-assisted workflow for TCM-like molecular generation, quality control, and target-aware evaluation.</p>
         </section>
-        <section>
-        <h3 class="text-xl font-semibold text-gray-950">Molecular Design Laboratory, SJTU School of Medicine</h3>
+        <section class="rounded-md border border-gray-200 bg-white p-5">
+        <img class="h-16 w-full object-contain object-left" src="/media/labs/mdl.png" alt="Molecular Design Laboratory logo">
+        <h3 class="mt-5 text-xl font-semibold text-gray-950">Molecular Design Laboratory, SJTU School of Medicine</h3>
         <p class="mt-1 text-gray-700">Studied CRISPR-Cas9 allostery, conformational dynamics, and allosteric database resources for mechanism-aware drug discovery.</p>
         </section>
         </div>

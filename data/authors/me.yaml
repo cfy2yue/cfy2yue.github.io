@@ -80,34 +80,23 @@ skills:
   - name: Computational Chemistry
     items:
       - label: Molecular dynamics
-        level: 4
       - label: Docking and virtual screening
-        level: 4
       - label: Allosteric mechanism analysis
-        level: 4
   - name: AI Virtual Cell
     items:
       - label: Single-cell foundation model pretraining
-        level: 5
       - label: Model deployment
-        level: 4
       - label: Post-training and perturbation modeling
-        level: 4
   - name: Deep Learning
     items:
       - label: Transformer-based models
-        level: 5
       - label: Flow matching and diffusion models
-        level: 4
       - label: Agent-based models and biology-prior embeddings
-        level: 4
 
 languages:
   - name: Chinese
-    level: 5
     label: Native
   - name: English
-    level: 4
     label: Professional
 
 awards:
