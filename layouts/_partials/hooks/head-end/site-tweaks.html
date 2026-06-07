@@ -1,0 +1,65 @@
+{{ if .IsHome }}
+<style>
+  #bio.hbb-section,
+  #skills.hbb-section,
+  #research.hbb-section,
+  #experience.hbb-section {
+    padding-top: clamp(2rem, 4vw, 4rem);
+    padding-bottom: clamp(2rem, 4vw, 4rem);
+  }
+
+  #bio > .flex,
+  #skills > .flex,
+  #research > .flex,
+  #experience > .flex {
+    width: 100%;
+    max-width: 72rem;
+  }
+
+  #bio .prose,
+  #skills .prose,
+  #research .prose,
+  #experience .prose {
+    width: 100%;
+    max-width: none;
+  }
+
+  #bio .prose :where(h1, h2, h3, p, ul, li),
+  #skills .prose :where(h1, h2, h3, p),
+  #research .prose :where(img),
+  #experience .prose :where(h1, h2, h3, p) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #bio .prose ul {
+    padding-left: 1.2rem;
+  }
+
+  #bio .prose a,
+  #skills .prose a,
+  #experience .prose a {
+    text-decoration: none;
+  }
+
+  #bio img[src*="/media/authors/me"] {
+    aspect-ratio: 4 / 5;
+  }
+
+  @media (max-width: 767px) {
+    #bio.hbb-section {
+      padding-top: 1rem;
+    }
+
+    #bio .prose > div {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    #bio img[src*="/media/authors/me"] {
+      width: min(13rem, 70vw);
+      height: auto;
+    }
+  }
+</style>
+{{ end }}

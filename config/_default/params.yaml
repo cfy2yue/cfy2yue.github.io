@@ -19,9 +19,9 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "PhD Student @ Tsinghua BIOPIC"
+    tagline: "PhD Student @ Tsinghua University"
     # Site meta description for search engines and social sharing
-    description: "Feiying Chen is a PhD student working on perturbation biology, AI virtual cell modeling, single-cell transcriptomics, and AI-driven drug discovery."
+    description: "Feiying Chen is a PhD student working on perturbation biology, AI virtual cell modeling, single-cell transcriptomics, AI-driven drug discovery, and phenotype-based drug design."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)

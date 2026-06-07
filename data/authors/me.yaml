@@ -13,14 +13,13 @@ status:
   icon: ""
 role: PhD Student in Biology
 bio: |
-  Feiying Chen is a PhD student at the Biomedical Pioneering Innovation Center
-  (BIOPIC), Tsinghua University. His research interests include perturbation
-  biology, AI virtual cell modeling, single-cell transcriptomics, AI-driven drug
-  discovery, and protein/perturbation-based drug discovery.
+  Feiying Chen is a PhD student in Biology at Tsinghua University. His research
+  interests include perturbation biology, AI virtual cell modeling, single-cell
+  transcriptomics, AI-driven drug discovery, and phenotype-based drug design.
 
 affiliations:
-  - name: Biomedical Pioneering Innovation Center, Tsinghua University
-    url: https://biopic.tsinghua.edu.cn/
+  - name: Tsinghua University
+    url: https://www.tsinghua.edu.cn/
 
 links:
   - icon: at-symbol
@@ -35,11 +34,11 @@ interests:
   - AI Virtual Cell
   - Single-cell Transcriptomics
   - AI-driven Drug Discovery
-  - Protein/Perturbation-based Drug Discovery
+  - Phenotype-based Drug Design
 
 education:
   - degree: PhD in Biology
-    institution: Tsinghua University, BIOPIC
+    institution: Tsinghua University
     start: 2025-09-01
     end: ''
     summary: |
@@ -55,7 +54,7 @@ education:
 
 experience:
   - role: PhD Student
-    org: Tsinghua BIOPIC / Cancer PKU
+    org: CancerPKU
     start: 2025-09-01
     summary: |
       Working on computational approaches for tumor microenvironment analysis,
@@ -78,30 +77,30 @@ experience:
       and allosteric database construction.
 
 skills:
-  - name: Computational Biology
+  - name: Computational Chemistry
     items:
-      - label: Single-cell analysis with Scanpy
+      - label: Molecular dynamics
         level: 4
-      - label: Multi-omics integration
+      - label: Docking and virtual screening
         level: 4
-      - label: Flux balance analysis
-        level: 3
-  - name: AI & Drug Design
+      - label: Allosteric mechanism analysis
+        level: 4
+  - name: AI Virtual Cell
     items:
-      - label: Molecular generation
+      - label: Single-cell foundation model pretraining
         level: 5
-      - label: Protein representation learning
+      - label: Model deployment
         level: 4
-      - label: Docking and ADMET workflows
+      - label: Post-training and perturbation modeling
         level: 4
-  - name: Programming
+  - name: Deep Learning
     items:
-      - label: Python / PyTorch / scikit-learn
+      - label: Transformer-based models
         level: 5
-      - label: Linux / HPC / Slurm
+      - label: Flow matching and diffusion models
         level: 4
-      - label: R / Matlab
-        level: 3
+      - label: Agent-based models and biology-prior embeddings
+        level: 4
 
 languages:
   - name: Chinese

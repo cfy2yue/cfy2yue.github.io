@@ -7,4 +7,4 @@ tags:
   - Single-cell Transcriptomics
 ---
 
-I am interested in models that connect perturbations, cellular state transitions, and phenotype-level responses. Current directions include single-cell transcriptomic modeling, perturbation response prediction, and AI virtual cell frameworks for tumor microenvironment analysis.
+I am interested in models that connect perturbations, cellular state transitions, and phenotype-level responses. Current directions include single-cell foundation model pretraining, post-training for perturbation response prediction, model deployment for biological workflows, and AI virtual cell frameworks for tumor microenvironment analysis.
