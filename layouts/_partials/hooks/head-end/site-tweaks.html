@@ -1,9 +1,9 @@
-{{ if .IsHome }}
 <style>
   #bio.hbb-section,
   #skills.hbb-section,
   #research.hbb-section,
-  #experience.hbb-section {
+  #experience.hbb-section,
+  #languages.hbb-section {
     padding-top: clamp(2rem, 4vw, 4rem);
     padding-bottom: clamp(2rem, 4vw, 4rem);
   }
@@ -11,7 +11,8 @@
   #bio > .flex,
   #skills > .flex,
   #research > .flex,
-  #experience > .flex {
+  #experience > .flex,
+  #languages > .flex {
     width: 100%;
     max-width: 72rem;
   }
@@ -19,7 +20,8 @@
   #bio .prose,
   #skills .prose,
   #research .prose,
-  #experience .prose {
+  #experience .prose,
+  #languages .prose {
     width: 100%;
     max-width: none;
   }
@@ -28,7 +30,8 @@
   #skills .prose :where(h1, h2, h3, p),
   #research .prose :where(img),
   #experience .prose :where(img),
-  #experience .prose :where(h1, h2, h3, p) {
+  #experience .prose :where(h1, h2, h3, p),
+  #languages .prose :where(p) {
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -63,4 +66,3 @@
     }
   }
 </style>
-{{ end }}
